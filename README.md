@@ -9,3 +9,11 @@ DocCase is a web application learning project, that aims to showcase the diferen
         <button class="btn-primary">Button</button>
     </div>
 ```
+## List
+| number   | item  |
+| -------- | ----- |
+|num 1     | bag   |
+|num 2     | bak   |
+|num 3     | bag   |
+|num 4     | bag   |
+|num 5     | bag   |
