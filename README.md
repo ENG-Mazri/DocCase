@@ -7,4 +7,5 @@ DocCase is a web application learning project, that aims to showcase the diferen
         <button class="btn-pink">Button</button>
         <button class="btn-purple">Button</button>
         <button class="btn-primary">Button</button>
+    </div>
 ```
