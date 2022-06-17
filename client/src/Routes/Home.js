@@ -1,0 +1,19 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBoxesPacking } from '@fortawesome/free-solid-svg-icons'
+import prDots from '../img/Pr_dots.svg'
+import grDots from '../img/gr_dots.svg'
+import "./Routes.css"
+function Home() {
+
+
+    return (<>
+      <div className="main">
+          <FontAwesomeIcon className='icon' icon={faBoxesPacking} size="6x"/>
+          <h1>Welcome to DocCase</h1>
+          <p>Your documents tracker</p>
+      </div>
+    </>
+    );
+}
+
+export default Home;

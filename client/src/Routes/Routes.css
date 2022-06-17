@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merriweather+Sans&family=Quicksand:wght@700&family=Squada+One&display=swap');
+
+.main{
+    /* display: flex;
+    flex-direction: column;
+    margin-top: 30%; 
+    align-items:center;*/
+    /* font-family: 'Architects Daughter', cursive;
+    font-family: 'Merriweather Sans', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Squada One', cursive; */
+    font-size: 700;
+    color: #72c4c1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.main h1{
+    color: #a7529b;
+}
+
+.docContainer{
+    /* margin: 3% 50% 3% 3%;
+    padding: 3%;
+    border-style: dotted;
+    border-radius: 5%; */
+    /* background-color: #4A4E69; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 5% 15%;
+    box-shadow: 5px 5px 0px 0px rgb(98, 98, 98);
+    padding: 2%;
+    border-radius: 0%;
+}
+
+.icon{
+    transition: transform 1.5s ease-in-out;
+  
+}
+
+.icon:hover {
+    transform: rotateY(360deg);
+}
+
+.addDoc{
+    margin-left: 25%;
+}
+
+.Contacts, .AboutUs{
+    /* border-style: solid; */
+    color: rgb(53, 53, 53);
+    background-color:ghostwhite;
+    box-shadow: 5px 5px 0px 0px #000;
+    margin: 10% 35%;
+    padding: 3%;
+    text-align: center;
+}
+ul{
+    padding: 0%;
+    margin-top: 10%;
+}
+.social a{
+    margin: 4%;
+}
+#strong{
+    color:22223B
+}
+
+.AboutUs{
+    margin: 10% 25%;
+}
+.AboutUs p{
+    font-size: large;
+
+}
+
+.docContainer button:hover{
+    background-color: rgba(229, 56, 59,0.9);
+    color: white; 
+}
+
+/* .projectCardsContainer{
+
+} */
+
+.projectCard{
+    color: rgb(53, 53, 53);
+    background-color:ghostwhite;
+    box-shadow: 5px 5px 0px 0px #000;
+}
+#prDots{
+    position: absolute;
+    width: 120px;
+    bottom: 5%;
+    left: 7%;
+    z-index: -1;
+}
+#grDots{
+    position: absolute;
+    width: 160px;
+    top: 11%;
+    right: 5%;
+    z-index: -1;
+}

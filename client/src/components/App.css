@@ -1,0 +1,118 @@
+#App{
+    text-align: center;
+    background-color: aquamarine;
+    position: absolute;
+    padding: 5%;
+    left: 40%;
+    top:30%;
+    width:300px;
+    height: 200px;
+    translate: (-60%,-70%);
+    z-index: -10;
+
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    /* background: linear-gradient(147deg, rgba(0,47,75,0.6) 4%, rgba(220,66,37,0.5) 96%);    
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color: rgb(243, 244, 246);
+}
+a{
+    text-decoration: none;
+    color: #22223B
+}
+
+a:hover{
+    color: white
+}
+
+.tableContainer{
+    margin-top: 5%;
+    position: relative;
+    padding: 3%;
+    color: white;
+
+}
+td{
+    color: white;
+}
+td:hover{
+    color: black;
+    cursor: pointer;
+}
+/* .searchResults{
+
+} */
+.cardContainer{
+    /* background-color: antiquewhite; */
+    margin: 5% 10%;
+    display: flex;
+    flex-wrap:wrap;
+    /* justify-content: space-between */
+}
+
+.card{
+    flex-basis:1;
+    width: 250px;
+    /* height: 300px; */
+    background-color: rgb(255, 255, 255);
+    margin: 2%;
+    box-shadow: 5px 5px 0px 0px rgb(98, 98, 98);
+    padding: 1%;
+    border-radius: 0%;
+    padding: 1.5%;
+}
+.card img{
+    position: relative;
+    width: 100%;
+}
+.page{
+    background-color: rgb(255, 255, 255);
+    margin: 5% 15%;
+    box-shadow: 5px 5px 0px 0px rgb(98, 98, 98);
+    padding: 2%;
+    border-radius: 0%;
+}
+ul li{
+    list-style: none;
+}
+
+.page h1{
+    margin-bottom: 3%;
+}
+
+.page img{
+    position: relative;
+    width: 100%;
+}
+
+.card h5{
+    color:#a7529b;
+
+}
+.card h5:hover{
+    cursor: pointer;
+}
+
+.card:hover {
+    /* background-color: rgba(114, 196, 193, .2); */
+    box-shadow: none;
+}
+
+.headerItem:hover {
+    color: #72c4c1 !important;
+}
+.signIn:hover{
+    background-color: #72c4c1 ;
+}
+.signUp:hover{
+    background-color: #a7529b ;
+}
+.card img{
+    position: relative;
+    width: 100%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,10 @@
+#MyComp{
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width:200px;
+    height: 200px;
+    translate: (-50%,-50%);
+    z-index: -10;
+}
