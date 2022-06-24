@@ -22,10 +22,10 @@ const Header = ()=>{
   const [password, setPassword] = useState('');
   const user = {email,password}
   const register = async()=>{
-    Register('http://localhost:5000/register', user, setLoggedIn)
+    Register('/register', user, setLoggedIn)
   }
   const logIn = async()=>{
-    LogIn('http://localhost:5000/login', user, setLoggedIn)
+    LogIn('/login', user, setLoggedIn)
   }
   const signOut = async()=>{
     localStorage.removeItem('token');
@@ -44,7 +44,7 @@ const Header = ()=>{
 
   const checkAuth = async ()=>{
     const token = localStorage.getItem('token')
-    const res = await fetch('http://localhost:5000/headerAuth', { method: "POST",
+    const res = await fetch('/headerAuth', { method: "POST",
       headers:{"Content-Type": "application/json"},
       body: JSON.stringify({token})
     })

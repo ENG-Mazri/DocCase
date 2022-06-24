@@ -30,7 +30,7 @@ const Page = () => {
 
     const postgresData = async()=>{
         const token = localStorage.getItem('token')
-        const res = await fetch(`http://localhost:5000/docs/${id}`, {Method: 'GET', headers: {token} });
+        const res = await fetch(`/docs/${id}`, {Method: 'GET', headers: {token} });
         const docs = await res.json();
         if(docs.isValidToken == false ){
             routeChange()
