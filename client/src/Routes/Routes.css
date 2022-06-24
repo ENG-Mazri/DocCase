@@ -92,14 +92,14 @@ ul{
 }
 #prDots{
     position: absolute;
-    width: 120px;
+    width: 12%;
     bottom: 5%;
     left: 7%;
     z-index: -1;
 }
 #grDots{
     position: absolute;
-    width: 160px;
+    width: 15%;
     top: 11%;
     right: 5%;
     z-index: -1;
