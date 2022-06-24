@@ -42,7 +42,7 @@ const EditDoc = () => {
     }
     console.log(data)
     const EditDoc = async ()=>{
-        const res = await fetch(`http://localhost:5000/docs/${id}`, {method: 'PUT', 
+        const res = await fetch(`/docs/${id}`, {method: 'PUT', 
             headers: {
             'Content-Type': 'application/json;charset=utf-8'
             }, 

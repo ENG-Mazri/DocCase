@@ -48,15 +48,15 @@
     margin-left: 25%;
 }
 
-.Contacts, .AboutUs{
-    /* border-style: solid; */
+/* .AboutUs{
+  
     color: rgb(53, 53, 53);
     background-color:ghostwhite;
     box-shadow: 5px 5px 0px 0px #000;
     margin: 10% 35%;
     padding: 3%;
     text-align: center;
-}
+} */
 ul{
     padding: 0%;
     margin-top: 10%;
@@ -68,8 +68,19 @@ ul{
     color:22223B
 }
 
-.AboutUs{
+/* .AboutUs{
     margin: 10% 25%;
+} */
+
+.AboutUs , .Contacts{
+    color: rgb(53, 53, 53);
+    background-color:ghostwhite;
+    box-shadow: 5px 5px 0px 0px #000;
+    margin: 7% 30%;
+    padding: 3%;
+    text-align: center;
+    min-width:fit-content;
+    max-width: 500px !important;
 }
 .AboutUs p{
     font-size: large;
@@ -80,10 +91,6 @@ ul{
     background-color: rgba(229, 56, 59,0.9);
     color: white; 
 }
-
-/* .projectCardsContainer{
-
-} */
 
 .projectCard{
     color: rgb(53, 53, 53);
@@ -103,4 +110,17 @@ ul{
     top: 11%;
     right: 5%;
     z-index: -1;
+}
+
+@media (max-width: 900px) and (min-width: 0px) {
+
+    .AboutUs , .Contacts{
+        color: rgb(53, 53, 53);
+        background-color:ghostwhite;
+        box-shadow: 5px 5px 0px 0px #000;
+        margin-right: 5rem;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
 }

@@ -7,7 +7,7 @@ function Home() {
       <div className="main">
           <FontAwesomeIcon className='icon' icon={faBoxesPacking} size="6x"/>
           <h1>Welcome to DocCase</h1>
-          <p>Share your projects</p>
+          {/* <p>Share your projects</p> */}
       </div>
     </>
     );
