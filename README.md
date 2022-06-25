@@ -8,9 +8,11 @@ You can check the app [here](https://doccase.herokuapp.com/)
 - [x] Connect routes to Postgresql
 - [x] Create the CRUD methods
 - [x] Build auth system using JWT
+- [ ] Build users profiles
 - [x] Build frontend with React
 - [x] Add firebase to store binary data
-- [ ] Add 3d viewer sapce to pages
+- [ ] Add delete/edit options to pages
+- [ ] Add 3d viewer sapce option to pages
 - [ ] Add markdown zones instead of using html inputs
 - [x] Deploy the app to Heroku  
 
