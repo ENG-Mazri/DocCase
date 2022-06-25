@@ -4,6 +4,7 @@ DocCase is an AEC web application that allows architechts and engineers to creat
 You can check the app [here](https://doccase.herokuapp.com/)
 
 ## Todos:
+- [x] Setup the project
 - [x] Build routes
 - [x] Connect routes to Postgresql
 - [x] Create the CRUD methods
