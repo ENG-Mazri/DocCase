@@ -14,6 +14,6 @@ You can check the app [here](https://doccase.herokuapp.com/)
 - [x] Add firebase to store binary data
 - [ ] Add delete/edit options to pages
 - [ ] Add 3d viewer sapce option to pages
-- [ ] Add markdown zones instead of using html text inputs
+- [ ] Add markdown components instead of using html text inputs
 - [x] Deploy the app to Heroku  
 
