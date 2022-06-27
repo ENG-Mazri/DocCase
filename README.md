@@ -1,5 +1,5 @@
 # DocCase
-DocCase is an AEC web application that allows architechts and engineers to create an account and add pages, each page is a document about one single project, that contains its title, a picture of it, some information about it, a descritption and some files like PDF, RVT, DYN... 
+DocCase is an AEC web application that allows architechts and engineers to create an account and add pages, Each page is a document presenting a case study, that contains its title, a picture of it, some information about it, a descritption and some files like PDF, RVT, DYN... 
 
 You can check the app [here](https://doccase.herokuapp.com/)
 
